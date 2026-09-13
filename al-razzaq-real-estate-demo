@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Al-Razzaq Real Estate | Saadi Town Karachi</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        body { background-color: #f4f6f8; color: #333; text-align: center; }
+        header { background: #111; color: #fff; padding: 20px; border-bottom: 4px solid #d4af37; position: sticky; top: 0; z-index: 1000; }
+        header h1 { font-size: 22px; color: #d4af37; letter-spacing: 1px; }
+        header p { font-size: 12px; color: #ccc; }
+        .hero { background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=800&q=80'); background-size: cover; background-position: center; color: white; padding: 50px 20px; }
+        .hero h2 { font-size: 24px; margin-bottom: 10px; }
+        .hero p { font-size: 14px; margin-bottom: 20px; color: #ddd; }
+        .btn { display: inline-block; background-color: #25d366; color: white; padding: 12px 25px; text-decoration: none; font-weight: bold; border-radius: 30px; font-size: 15px; box-shadow: 0 4px 10px rgba(0,0,0,0.3); }
+        .section { padding: 30px 15px; max-width: 500px; margin: 0 auto; }
+        .section h3 { font-size: 20px; margin-bottom: 20px; color: #111; border-bottom: 2px solid #d4af37; display: inline-block; padding-bottom: 5px; }
+        .grid { display: grid; grid-template-columns: 1fr; gap: 15px; }
+        .card { background: white; padding: 15px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); text-align: left; }
+        .card h4 { font-size: 16px; margin-bottom: 5px; color: #222; }
+        .card p { color: #d4af37; font-weight: bold; font-size: 14px; margin-bottom: 5px; }
+        .form-box { background: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); text-align: left; margin-top: 20px; }
+        .form-box h3 { text-align: center; width: 100%; margin-bottom: 15px; }
+        .input-group { margin-bottom: 12px; }
+        .input-group label { display: block; font-size: 13px; font-weight: bold; margin-bottom: 5px; color: #444; }
+        .input-group input, .input-group select { width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 8px; font-size: 14px; }
+        .order-btn { width: 100%; background: #d4af37; color: white; border: none; padding: 12px; font-size: 16px; font-weight: bold; border-radius: 8px; cursor: pointer; margin-top: 10px; }
+        footer { background: #111; color: #aaa; padding: 25px 15px; font-size: 12px; margin-top: 20px; }
+        footer p { margin-bottom: 5px; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>AL-RAZZAQ REAL ESTATE</h1>
+        <p>Saadi Town, Karachi • Plots & Properties</p>
+    </header>
+
+    <div class="hero">
+        <h2>Find Your Dream Property</h2>
+        <p>Explore residential and commercial plots in prime locations of Karachi.</p>
+        <a href="#contact" class="btn">Contact Us Now</a>
+    </div>
+
+    <div class="section">
+        <h3>Featured Properties</h3>
+        <div class="grid">
+            <div class="card">
+                <h4>200 Sq. Yards Residential Plot</h4>
+                <p>Price: Rs. 1.25 Crore</p>
+                <span style="font-size: 12px; color: #666;">Saadi Town, Sector 4 • Park Facing • Ready for Possession.</span>
+            </div>
+            <div class="card">
+                <h4>120 Sq. Yards Commercial File</h4>
+                <p>Price: Rs. 85 Lakhs</p>
+                <span style="font-size: 12px; color: #666;">Prime Location • High Investment Return Potential.</span>
+            </div>
+        </div>
+
+        <div class="form-box" id="contact">
+            <h3>Inquiry / Booking Form</h3>
+            <div class="input-group">
+                <label>Your Name</label>
+                <input type="text" placeholder="Enter your full name">
+            </div>
+            <div class="input-group">
+                <label>Phone Number</label>
+                <input type="text" placeholder="03XXXXXXXXX">
+            </div>
+            <div class="input-group">
+                <label>Interested Property</label>
+                <select>
+                    <option>200 Sq. Yards Plot - Saadi Town</option>
+                    <option>120 Sq. Yards Commercial File</option>
+                </select>
+            </div>
+            <button class="order-btn" onclick="alert('Inquiry submitted! Al-Razzaq team will contact you shortly.')">Submit Inquiry</button>
+        </div>
+    </div>
+
+    <footer>
+        <p><strong>Al-Razzaq Real Estate</strong></p>
+        <p>Location: Saadi Town, Karachi</p>
+        <p>Contact / WhatsApp: 03XX-XXXXXXX</p>
+        <p style="margin-top: 15px; color: #777;">&copy; 2026 Professional Web Demo.</p>
+    </footer>
+
+</body>
+</html>
